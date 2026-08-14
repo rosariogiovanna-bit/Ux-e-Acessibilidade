@@ -1,20 +1,47 @@
-body{background-color: rgb(238, 223, 243);
-    font-family: "Nunito Sans" ;
-display: flex;
-flex-direction: column;
-align-items:start;
-font-size: 20px;
-margin: 50 px;}
-
-
-h1{
-    color: blue; text-align: center; font-size: 38px; font-family: "Paytone One";
+body {
+    background-color: #eedff3;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 40px;
+    color: #2b2b2b;
 }
 
-
-h2{
-    color: rgb(247, 0, 255); text-align:right; font-size: 30px; font-family: "Paytone One";
+h1 {
+    color: #0d47a1;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Paytone One", sans-serif;
+    margin-bottom: 24px;
 }
 
+h2 {
+    color: #8e24aa; /* Ajustado para dar melhor contraste com o fundo */
+    font-size: 28px;
+    font-family: "Paytone One", sans-serif;
+    margin-top: 40px;
+}
 
-div{display:list-item}
+h3 {
+    color: #1a237e;
+    margin-bottom: 8px;
+}
+
+/* Estilização para links */
+a {
+    color: #1565c0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+/* Ajuste nos elementos de mídia */
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
